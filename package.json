@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-sii-chile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nodo n8n para integración con SII Chile (Servicio de Impuestos Internos)",
   "keywords": [
     "n8n-community-node-package",
@@ -12,14 +12,14 @@
     "impuestos"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/tu-usuario/n8n-nodes-sii-chile",
+  "homepage": "https://github.com/Manuelreyesbravo/n8n-nodes-sii-chile",
   "author": {
-    "name": "Manu",
-    "email": "tu-email@ejemplo.com"
+    "name": "Manuel Reyes Bravo",
+    "email": "manuelreyesbravo@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/n8n-nodes-sii-chile.git"
+    "url": "https://github.com/Manuelreyesbravo/n8n-nodes-sii-chile.git"
   },
   "main": "index.js",
   "scripts": {
