@@ -1,0 +1,57 @@
+{
+  "name": "n8n-nodes-sii-chile",
+  "version": "0.1.0",
+  "description": "Nodo n8n para integración con SII Chile (Servicio de Impuestos Internos)",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "sii",
+    "chile",
+    "rut",
+    "facturacion",
+    "impuestos"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tu-usuario/n8n-nodes-sii-chile",
+  "author": {
+    "name": "Manu",
+    "email": "tu-email@ejemplo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/n8n-nodes-sii-chile.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/SiiChileApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/SiiChile/SiiChile.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.56.0",
+    "gulp": "^4.0.2",
+    "n8n-workflow": "*",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

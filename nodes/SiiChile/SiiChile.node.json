@@ -1,0 +1,38 @@
+{
+	"node": "n8n-nodes-sii-chile.siiChile",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting", "Data & Storage"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/tu-usuario/n8n-nodes-sii-chile"
+			}
+		]
+	},
+	"alias": [
+		"sii",
+		"chile",
+		"rut",
+		"factura",
+		"boleta",
+		"dte",
+		"impuestos",
+		"tributario",
+		"facturacion",
+		"electronica",
+		"uf",
+		"utm",
+		"dolar",
+		"openfactura",
+		"haulmer",
+		"simpleapi",
+		"nota credito",
+		"nota debito",
+		"latin america",
+		"latam"
+	],
+	"subcategories": {
+		"Finance & Accounting": ["Invoicing", "Taxes"]
+	}
+}
