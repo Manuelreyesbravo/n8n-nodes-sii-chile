@@ -25,7 +25,7 @@ class SiiChileApi {
                         value: 'none',
                     },
                 ],
-                default: 'openfactura',
+                default: 'none',
                 description: 'Servicio para emitir DTEs al SII',
             },
             {
@@ -93,6 +93,13 @@ class SiiChileApi {
                 },
             },
         ];
+        this.test = {
+            request: {
+                baseURL: 'https://mindicador.cl',
+                url: '/api',
+                method: 'GET',
+            },
+        };
     }
 }
 exports.SiiChileApi = SiiChileApi;

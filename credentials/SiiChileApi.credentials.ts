@@ -1,6 +1,7 @@
 import {
 	ICredentialType,
 	INodeProperties,
+	ICredentialTestRequest,
 } from 'n8n-workflow';
 
 export class SiiChileApi implements ICredentialType {
@@ -26,7 +27,7 @@ export class SiiChileApi implements ICredentialType {
 					value: 'none',
 				},
 			],
-			default: 'openfactura',
+			default: 'none',
 			description: 'Servicio para emitir DTEs al SII',
 		},
 		{
@@ -94,4 +95,12 @@ export class SiiChileApi implements ICredentialType {
 			},
 		},
 	];
+
+	test: ICredentialTestRequest = {
+		request: {
+			baseURL: 'https://mindicador.cl',
+			url: '/api',
+			method: 'GET',
+		},
+	};
 }
